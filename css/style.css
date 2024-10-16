@@ -278,7 +278,16 @@ h3 {
 .advantages-list-column {
   width: calc((100% - 72px) / 4);
 }
-
+.header-soc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 /* Team section */
 .team-section {
   background-color: #f4f4fd;
