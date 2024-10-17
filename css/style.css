@@ -347,7 +347,8 @@ h3 {
   justify-content: center;
 }
 
-.team-soc-icon:focus {
+.team-soc-icon:focus,
+.team-soc-icon.current {
   background-color: #404bbf;
 }
 .team-soc-icon:hover {
