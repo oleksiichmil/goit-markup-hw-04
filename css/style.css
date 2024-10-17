@@ -155,9 +155,11 @@ h3 {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link.current {
   position: relative;
 }
+
 .nav-link.current::after {
   content: "";
   position: absolute;
@@ -168,6 +170,7 @@ h3 {
   background-color: #404bbf;
   border-radius: 2px;
 }
+
 .nav-link:focus,
 .nav-link.current {
   color: #404bbf;
@@ -278,6 +281,7 @@ h3 {
 .advantages-list-column {
   width: calc((100% - 72px) / 4);
 }
+
 .header-soc-list {
   display: flex;
   align-items: center;
@@ -288,6 +292,7 @@ h3 {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
+
 /* Team section */
 .team-section {
   background-color: #f4f4fd;
@@ -300,10 +305,12 @@ h3 {
   line-height: 1.11;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
 }
+
 .team-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
@@ -318,6 +325,36 @@ h3 {
   text-align: center;
 }
 
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-soc-section {
+  width: 40px;
+  height: 40px;
+}
+
+.team-soc-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-soc-icon: focus {
+  background-color: #404bbf;
+}
+.team-soc-icon: hover {
+  background-color: #404bbf;
+}
+.team-icon {
+  fill: #f4f4fd;
+}
 .team-section-image {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
@@ -325,34 +362,41 @@ h3 {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .team-name {
   padding: 32px 0;
 }
+
 /* Our Portfolio section */
 .portfolio-block {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .portfolio-title-hero {
   color: #2e2f42;
   line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-pictures {
   width: calc((100% - 48px) / 3);
 }
+
 .portfolio-discription {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .portfolio-title {
   color: #2e2f42;
   letter-spacing: 0.02em;
