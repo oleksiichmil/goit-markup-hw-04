@@ -440,6 +440,13 @@ h3 {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Footer */
+.container-footer {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: baseline;
+}
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
