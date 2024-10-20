@@ -478,3 +478,27 @@ h3 {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-soc-desc {
+  width: 40px;
+  height: 40px;
+}
+.footer-soc-logo {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-soc-logo:focus,
+.footer-soc-logo:hover {
+  background-color: #31d0aa;
+}
+.footer-icon {
+  fill: #f4f4fd;
+}
